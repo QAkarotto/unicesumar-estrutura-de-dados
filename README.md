@@ -1,2 +1,40 @@
-# unicesumar-estrutura-de-dados
-Exemplos de código utilizados nas aulas práticas da Disciplina de Estrutura de Dados
+# Estrutura de Dados em C
+
+Repositório de apoio da disciplina de Estrutura de Dados com exemplos didáticos e executáveis em linguagem C.
+
+## Estrutura do Repositório
+
+unicesumar-estrutura-de-dados/
+- 01_vetores_matrizes/
+- 02_ponteiros/
+- 03_pilhas/
+  - README.md
+  - 01_pilha_fundamentos.c
+- 04_filas/
+  - README.md
+  - 01_fila_fundamentos.c
+
+## Módulos
+
+- Vetores e Matrizes: estruturas básicas, operações em vetores, matrizes e strings
+- Ponteiros: fundamentos, passagem por referência, aritmética e memória dinâmica
+- Pilhas: implementação dinâmica com operações principais (push, pop, top, size e empty)
+- Filas: implementação dinâmica com operações principais (enqueue, dequeue, front, size e empty)
+
+# Atividades Avaliativas
+
+Índice das atividades avaliativas da disciplina.
+
+## Regras Gerais
+
+- Implementação de desafios envolvendo estruturas de dados no estilo de processos seletivos e lista de exercícios.
+- Entrega via GitHub contendo código e documentação em README explicando a solução.
+- Entregas em grupo de até 5 participantes.
+- Cada integrante deve ter pelo menos um commit relevante relacionado à atividade no repositório.
+- Apresentação e explicação do código rodando na última aula prática antes da prova teórica.
+
+## Atividades
+
+- [Atividade 01 (valor 1,0)](ATIVIDADE%20AVALIATIVA%201.md)
+- [Atividade 02 (valor 1,0)](ATIVIDADE%20AVALIATIVA%202.md)
+- [Atividade 03 (valor 1,0)](ATIVIDADE%20AVALIATIVA%203.md)
