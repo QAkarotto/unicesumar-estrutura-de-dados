@@ -21,6 +21,13 @@ unicesumar-estrutura-de-dados/
 - Pilhas: implementação dinâmica com operações principais (push, pop, top, size e empty)
 - Filas: implementação dinâmica com operações principais (enqueue, dequeue, front, size e empty)
 
+## README dos Exemplos
+
+- [Vetores e Matrizes](01_vetores_matrizes/README.md)
+- [Ponteiros](02_ponteiros/README.md)
+- [Pilhas](03_pilhas/README.md)
+- [Filas](04_filas/README.md)
+
 # Atividades Avaliativas
 
 Índice das atividades avaliativas da disciplina.
