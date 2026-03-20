@@ -28,6 +28,13 @@ unicesumar-estrutura-de-dados/
 - [Pilhas](03_pilhas/README.md)
 - [Filas](04_filas/README.md)
 
+## Materiais Complementares
+
+- [Mind Map da disciplina](https://app.xmind.com/share/waBbLBnS)
+- [Curso complementar de linguagem C (Udemy)](https://www.udemy.com/course/logica-e-algoritmos/)
+
+Esse material é pago, entretanto, quem não puder pagar pode mandar um direct no Instagram do professor para solicitar um acesso gratuito: [@oguscaetano](https://www.instagram.com/oguscaetano/)
+
 # Atividades Avaliativas
 
 Índice das atividades avaliativas da disciplina.
