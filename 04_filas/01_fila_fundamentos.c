@@ -3,48 +3,58 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct elemento {
+typedef struct elemento
+{
     int valor;
     struct elemento *proximo;
 } Elemento;
 
-typedef struct fila {
-    Elemento *inicio;
+typedef struct fila
+{
+    Elemento *cabeca;
     Elemento *fim;
     int tamanho;
 } Fila;
 
-Fila *iniciar() {
+Fila *iniciar()
+{
     Fila *f = (Fila *)malloc(sizeof(Fila));
-    if (f == NULL) {
+    if (f == NULL)
+    {
         printf("Erro: falta de memoria ao iniciar fila.\n");
         return NULL;
     }
 
-    f->inicio = NULL;
+    f->cabeca = NULL;
     f->fim = NULL;
     f->tamanho = 0;
     return f;
 }
 
-int empty(Fila *f) {
-    return f == NULL || f->inicio == NULL;
+int empty(Fila *f)
+{
+    return f->tamanho == 0 || f->cabeca == NULL;
 }
 
-int size(Fila *f) {
-    if (f == NULL) {
+int size(Fila *f)
+{
+    if (f == NULL)
+    {
         return 0;
     }
     return f->tamanho;
 }
 
-void enqueue(Fila *f, int valor) {
-    if (f == NULL) {
+void enqueue(Fila *f, int valor)
+{
+    if (f == NULL)
+    {
         return;
     }
 
     Elemento *e = (Elemento *)malloc(sizeof(Elemento));
-    if (e == NULL) {
+    if (e == NULL)
+    {
         printf("Erro: falta de memoria em enqueue.\n");
         return;
     }
@@ -52,69 +62,43 @@ void enqueue(Fila *f, int valor) {
     e->valor = valor;
     e->proximo = NULL;
 
-    if (empty(f)) {
-        f->inicio = e;
-        f->fim = e;
-    } else {
+    if (f->fim != NULL)
+    {
         f->fim->proximo = e;
-        f->fim = e;
     }
-
+    else
+    {
+        f->cabeca = e;
+    }
+    f->fim = e;
     f->tamanho = f->tamanho + 1;
 }
 
-int front(Fila *f) {
-    if (empty(f)) {
+int head(Fila *f)
+{
+    if (empty(f))
+    {
         printf("Fila vazia!\n\n");
         return -1;
     }
-    return f->inicio->valor;
+    return f->cabeca->valor;
 }
 
-int dequeue(Fila *f) {
-    if (empty(f)) {
-        printf("Fila vazia.\n\n");
-        return -1;
-    }
-
-    Elemento *e = f->inicio;
-    int valor = e->valor;
-
-    f->inicio = f->inicio->proximo;
-    if (f->inicio == NULL) {
-        f->fim = NULL;
-    }
-
-    f->tamanho = f->tamanho - 1;
-    free(e);
-    e = NULL;
-
-    return valor;
-}
-
-void imprimir(Fila *f) {
-    printf("Inicio -> ");
-    for (Elemento *atual = f->inicio; atual != NULL; atual = atual->proximo) {
+void imprimir(Fila *f)
+{
+    printf("cabeca -> ");
+    for (Elemento *atual = f->cabeca; atual != NULL; atual = atual->proximo)
+    {
         printf("%d -> ", atual->valor);
     }
     printf("NULL <- Fim\n");
 }
 
-void liberar(Fila *f) {
-    if (f == NULL) {
-        return;
-    }
-
-    while (!empty(f)) {
-        dequeue(f);
-    }
-
-    free(f);
-}
-
-int main() {
+int main()
+{
     Fila *f = iniciar();
-    if (f == NULL) {
+    if (f == NULL)
+    {
         return 1;
     }
 
@@ -127,21 +111,21 @@ int main() {
     imprimir(f);
     printf("\n");
 
-    printf("2) front, size e empty\n");
-    printf("front = %d\n", front(f));
+    printf("2) head, size e empty\n");
+    printf("head = %d\n", head(f));
     printf("size = %d\n", size(f));
     printf("empty = %d\n\n", empty(f));
 
-    printf("3) dequeue\n");
-    printf("dequeue removeu = %d\n", dequeue(f));
-    imprimir(f);
-    printf("\n");
+    // printf("3) dequeue\n");
+    // printf("dequeue removeu = %d\n", dequeue(f));
+    // imprimir(f);
+    // printf("\n");
 
-    printf("4) esvaziando\n");
-    printf("dequeue removeu = %d\n", dequeue(f));
-    printf("dequeue removeu = %d\n", dequeue(f));
-    printf("empty = %d\n", empty(f));
-    printf("dequeue em fila vazia = %d\n", dequeue(f));
+    // printf("4) esvaziando\n");
+    // printf("dequeue removeu = %d\n", dequeue(f));
+    // printf("dequeue removeu = %d\n", dequeue(f));
+    // printf("empty = %d\n", empty(f));
+    // printf("dequeue em fila vazia = %d\n", dequeue(f));
 
     liberar(f);
     return 0;
