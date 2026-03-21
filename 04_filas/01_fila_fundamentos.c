@@ -6,6 +6,7 @@
 typedef struct elemento
 {
     int valor;
+    
     struct elemento *proximo;
 } Elemento;
 
@@ -84,6 +85,30 @@ int head(Fila *f)
     return f->cabeca->valor;
 }
 
+int dequeue(Fila *f)
+{
+    if (empty(f))
+    {
+        printf("Fila vazia.\n\n");
+        return -1;
+    }
+
+    Elemento *e = f->cabeca;
+    int valor = e->valor;
+
+    f->cabeca = e->proximo;
+    if (empty(f))
+    {
+        f->fim = NULL;
+    }
+
+    f->tamanho = f->tamanho - 1;
+    free(e);
+    e = NULL;
+
+    return valor;
+}
+
 void imprimir(Fila *f)
 {
     printf("cabeca -> ");
@@ -92,6 +117,21 @@ void imprimir(Fila *f)
         printf("%d -> ", atual->valor);
     }
     printf("NULL <- Fim\n");
+}
+
+void liberar(Fila *f)
+{
+    if (f == NULL)
+    {
+        return;
+    }
+
+    while (!empty(f))
+    {
+        dequeue(f);
+    }
+
+    free(f);
 }
 
 int main()
@@ -116,16 +156,16 @@ int main()
     printf("size = %d\n", size(f));
     printf("empty = %d\n\n", empty(f));
 
-    // printf("3) dequeue\n");
-    // printf("dequeue removeu = %d\n", dequeue(f));
-    // imprimir(f);
-    // printf("\n");
+    printf("3) dequeue\n");
+    printf("dequeue removeu = %d\n", dequeue(f));
+    imprimir(f);
+    printf("\n");
 
-    // printf("4) esvaziando\n");
-    // printf("dequeue removeu = %d\n", dequeue(f));
-    // printf("dequeue removeu = %d\n", dequeue(f));
-    // printf("empty = %d\n", empty(f));
-    // printf("dequeue em fila vazia = %d\n", dequeue(f));
+    printf("4) esvaziando\n");
+    printf("dequeue removeu = %d\n", dequeue(f));
+    printf("dequeue removeu = %d\n", dequeue(f));
+    printf("empty = %d\n", empty(f));
+    printf("dequeue em fila vazia = %d\n", dequeue(f));
 
     liberar(f);
     return 0;
