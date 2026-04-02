@@ -45,7 +45,14 @@ Esse material é pago, entretanto, quem não puder pagar pode mandar um direct n
 - Entrega via GitHub contendo código e documentação em README explicando a solução.
 - Entregas em grupo de até 5 participantes.
 - Cada integrante deve ter pelo menos um commit relevante relacionado à atividade no repositório.
-- Apresentação e explicação do código rodando na última aula prática antes da prova teórica.
+- Apresentação e explicação do código rodando na última aula prática antes da prova teórica:
+  - **Análise e Desenvolvimento de Sistemas:** **08/04**.
+  - **Engenharia de Software:** **10/04**.
+- Entrega final também deve ser enviada por e-mail para joao.vsantos@unicesumar.edu.br com:
+  - Título: Trabalho Estruturas de dados ADSIS3S.
+  - Corpo: nome completo, usuário do GitHub de cada integrante da equipe e link do repositório.
+  - Em cópia: gabriel.pjesus@unicesumar.edu.br e o e-mail de todos os integrantes da equipe.
+- O envio por e-mail deve ocorrer até as 19h da data da apresentação.
 
 ## Atividades
 

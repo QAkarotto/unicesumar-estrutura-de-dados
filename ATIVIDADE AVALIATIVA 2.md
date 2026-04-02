@@ -47,3 +47,11 @@ Implemente um programa em C que receba uma string e retorne essa string invertid
 - Entregas em grupo de até 5 participantes.
 - Cada integrante deve ter pelo menos um commit relevante relacionado à atividade no repositório.
 - Apresentação e explicação do código rodando na última aula prática antes da prova teórica.
+- Data da apresentação/entrega:
+	- **Análise e Desenvolvimento de Sistemas:** **08/04**.
+	- **Engenharia de Software:** **10/04**.
+- Enviar o link do repositório por e-mail para joao.vsantos@unicesumar.edu.br com:
+	- Título: Trabalho Estruturas de dados ADSIS3S.
+	- Corpo: nome completo, usuário do GitHub de cada integrante da equipe e link do repositório.
+	- Em cópia: gabriel.pjesus@unicesumar.edu.br e o e-mail de todos os integrantes da equipe.
+- O envio por e-mail deve ocorrer até as 19h da data da apresentação.
