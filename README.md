@@ -43,7 +43,7 @@ Esse material é pago, entretanto, quem não puder pagar pode mandar um direct n
 
 - Implementação de desafios envolvendo estruturas de dados no estilo de processos seletivos e lista de exercícios.
 - Entrega via GitHub contendo código e documentação em README explicando a solução.
-- Entregas em grupo de até 5 participantes.
+- Entregas em grupo de até 6 participantes.
 - Cada integrante deve ter pelo menos um commit relevante relacionado à atividade no repositório.
 - Apresentação e explicação do código rodando na última aula prática antes da prova teórica:
   - **Análise e Desenvolvimento de Sistemas:** **08/04**.
