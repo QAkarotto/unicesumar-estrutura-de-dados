@@ -59,3 +59,4 @@ Esse material é pago, entretanto, quem não puder pagar pode mandar um direct n
 - [Atividade 01 (valor 1,0)](ATIVIDADE%20AVALIATIVA%201.md)
 - [Atividade 02 (valor 1,0)](ATIVIDADE%20AVALIATIVA%202.md)
 - [Atividade 03 (valor 1,0)](ATIVIDADE%20AVALIATIVA%203.md)
+
