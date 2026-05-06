@@ -1,0 +1,24 @@
+/* RECURSIVIDADE EM C - 02: MDC */
+
+#include <stdio.h>
+
+int mdc(int a, int b)
+{
+    if (b == 0)
+    {
+        return a;
+    }
+
+    return mdc(b, a % b);
+}
+
+int main(void)
+{
+    int a = 84;
+    int b = 30;
+
+    printf("===== MDC por Recursividade =====\n\n");
+    printf("mdc(%d, %d) = %d\n", a, b, mdc(a, b));
+
+    return 0;
+}

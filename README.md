@@ -13,6 +13,10 @@ unicesumar-estrutura-de-dados/
 - 04_filas/
   - README.md
   - 01_fila_fundamentos.c
+- 05_recursividade/
+  - README.md
+  - 01_recursividade_fundamentos.c
+  - 02_recursividade_fibonacci.c
 
 ## Módulos
 
@@ -20,6 +24,7 @@ unicesumar-estrutura-de-dados/
 - Ponteiros: fundamentos, passagem por referência, aritmética e memória dinâmica
 - Pilhas: implementação dinâmica com operações principais (push, pop, top, size e empty)
 - Filas: implementação dinâmica com operações principais (enqueue, dequeue, front, size e empty)
+- Recursividade: fundamentos de chamadas recursivas, fatorial, MDC e problemas clássicos
 
 ## README dos Exemplos
 
@@ -27,6 +32,7 @@ unicesumar-estrutura-de-dados/
 - [Ponteiros](02_ponteiros/README.md)
 - [Pilhas](03_pilhas/README.md)
 - [Filas](04_filas/README.md)
+- [Recursividade](05_recursividade/README.md)
 
 ## Materiais Complementares
 
@@ -59,4 +65,5 @@ Esse material é pago, entretanto, quem não puder pagar pode mandar um direct n
 - [Atividade 01 (valor 1,0)](ATIVIDADE%20AVALIATIVA%201.md)
 - [Atividade 02 (valor 1,0)](ATIVIDADE%20AVALIATIVA%202.md)
 - [Atividade 03 (valor 1,0)](ATIVIDADE%20AVALIATIVA%203.md)
+- [Atividade 01 - Recursividade](atividades/2bim/ATIVIDADE%20AVALIATIVA%201.md)
 
