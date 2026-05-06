@@ -60,10 +60,12 @@ Esse material é pago, entretanto, quem não puder pagar pode mandar um direct n
   - Em cópia: gabriel.pjesus@unicesumar.edu.br e o e-mail de todos os integrantes da equipe.
 - O envio por e-mail deve ocorrer até as 19h da data da apresentação.
 
-## Atividades
+## Atividades 1º Bimestre
 
-- [Atividade 01 (valor 1,0)](ATIVIDADE%20AVALIATIVA%201.md)
-- [Atividade 02 (valor 1,0)](ATIVIDADE%20AVALIATIVA%202.md)
-- [Atividade 03 (valor 1,0)](ATIVIDADE%20AVALIATIVA%203.md)
+- [Atividade 01 (valor 1,0)](atividades/1bim/AATIVIDADE%20AVALIATIVA%201.md)
+- [Atividade 02 (valor 1,0)](atividades/1bim/ATIVIDADE%20AVALIATIVA%202.md)
+- [Atividade 03 (valor 1,0)](atividades/1bim/ATIVIDADE%20AVALIATIVA%203.md)
+
+## Atividades 2º Bimestre
 - [Atividade 01 - Recursividade](atividades/2bim/ATIVIDADE%20AVALIATIVA%201.md)
 
