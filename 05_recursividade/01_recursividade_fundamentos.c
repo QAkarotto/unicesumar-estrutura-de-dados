@@ -2,24 +2,24 @@
 
 #include <stdio.h>
 
-long long fatorial(int n)
+int fatorial(int n)
 {
     if (n <= 1)
     {
         return 1;
     }
 
-    return (long long)n * fatorial(n - 1);
+    return n * fatorial(n - 1);
 }
 
-long long potencia(int base, int expoente)
+int potencia(int base, int expoente)
 {
     if (expoente == 0)
     {
         return 1;
     }
 
-    return (long long)base * potencia(base, expoente - 1);
+    return base * potencia(base, expoente - 1);
 }
 
 int main(void)
@@ -30,8 +30,8 @@ int main(void)
 
     printf("===== Fundamentos de Recursividade =====\n\n");
 
-    printf("fatorial(%d) = %lld\n", valor_fatorial, fatorial(valor_fatorial));
-    printf("potencia(%d, %d) = %lld\n", base, expoente, potencia(base, expoente));
+    printf("fatorial(%d) = %d\n", valor_fatorial, fatorial(valor_fatorial));
+    printf("potencia(%d, %d) = %d\n", base, expoente, potencia(base, expoente));
 
     return 0;
 }
