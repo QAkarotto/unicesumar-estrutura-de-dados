@@ -17,6 +17,9 @@ unicesumar-estrutura-de-dados/
   - README.md
   - 01_recursividade_fundamentos.c
   - 02_recursividade_fibonacci.c
+- 06_listas_encadeadas/
+  - README.md
+  - 01_lista_encadeada.c
 
 ## Módulos
 
@@ -25,6 +28,7 @@ unicesumar-estrutura-de-dados/
 - Pilhas: implementação dinâmica com operações principais (push, pop, top, size e empty)
 - Filas: implementação dinâmica com operações principais (enqueue, dequeue, front, size e empty)
 - Recursividade: fundamentos de chamadas recursivas, fatorial, MDC e problemas clássicos
+- Listas encadeadas: implementação simples de lista encadeada e atividade prática com manipulação, divisão e playlist circular duplamente encadeada
 
 ## README dos Exemplos
 
@@ -33,6 +37,7 @@ unicesumar-estrutura-de-dados/
 - [Pilhas](03_pilhas/README.md)
 - [Filas](04_filas/README.md)
 - [Recursividade](05_recursividade/README.md)
+- [Listas Encadeadas](06_listas_encadeadas/README.md)
 
 ## Materiais Complementares
 
@@ -68,4 +73,5 @@ Esse material é pago, entretanto, quem não puder pagar pode mandar um direct n
 
 ## Atividades 2º Bimestre
 - [Atividade 01 - Recursividade](atividades/2bim/ATIVIDADE%20AVALIATIVA%201.md)
+- [Atividade 02 - Listas Encadeadas](atividades/2bim/ATIVIDADE%20AVALIATIVA%202.md)
 
