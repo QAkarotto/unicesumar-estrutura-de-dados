@@ -28,8 +28,9 @@
 - Entrega via GitHub contendo codigo e documentacao em README explicando a solucao.
 - Entregas em grupo de ate 6 participantes.
 - Cada integrante deve ter pelo menos um commit relevante relacionado a atividade no repositorio.
-- Apresentacao e explicacao do codigo rodando na ultima aula pratica antes da prova teorica.
-- A data de entrega e apresentacao sera informada pelo professor em sala.
+- Apresentacao e explicacao do codigo em sala ou por meio de video.
+- A data limite para entrega e apresentacao e a data da proxima aula.
+- Os envios devem ser realizados ate as 19h.
 - Enviar o link do repositorio por e-mail para joao.vsantos@unicesumar.edu.br com:
   - Titulo: Trabalho Estruturas de dados ADSIS3S.
   - Corpo: nome completo, usuario do GitHub de cada integrante da equipe e link do repositorio.

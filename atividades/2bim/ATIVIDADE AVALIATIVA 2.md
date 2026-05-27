@@ -102,8 +102,9 @@ Navegar: Rock → Jazz → Pop → Rock (volta circular)
 - Entrega via GitHub contendo código e documentação em README explicando a solução.
 - Entregas em grupo de até 6 participantes.
 - Cada integrante deve ter pelo menos um commit relevante relacionado à atividade no repositório.
-- Apresentação e explicação do código rodando na última aula prática antes da prova teórica.
-- A data de entrega e apresentação será informada pelo professor em sala.
+- Apresentação e explicação do código em sala ou por meio de vídeo.
+- A data limite para entrega e apresentação é a data da próxima aula.
+- Os envios devem ser realizados até as 19h.
 - Enviar o link do repositório por e-mail para joao.vsantos@unicesumar.edu.br com:
   - Título: Trabalho Estruturas de Dados 2BIM SUA_TURMA_AQUI [ADSIS3S, ESOFT3SNA ou ESOFT3SNB].
   - Corpo: nome completo, usuário do GitHub de cada integrante da equipe e link do repositório.
