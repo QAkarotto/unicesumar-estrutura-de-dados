@@ -2,6 +2,22 @@
 
 Repositório de apoio da disciplina de Estrutura de Dados com exemplos didáticos e executáveis em linguagem C.
 
+## Índice (Sumário)
+
+Links rápidos para os módulos e recursos do repositório:
+
+- [01_vetores_matrizes](01_vetores_matrizes/)
+- [02_ponteiros](02_ponteiros/)
+- [03_pilhas](03_pilhas/)
+- [04_filas](04_filas/)
+- [05_recursividade](05_recursividade/)
+- [06_listas_encadeadas](06_listas_encadeadas/)
+- [07_tabela_hash](07_tabela_hash/)
+- [08_arvores](08_arvores/)
+- [atividades](atividades/)
+- [notas_de_aulas](notas_de_aulas/)
+- [LICENSE](LICENSE)
+
 ## Estrutura do Repositório
 
 unicesumar-estrutura-de-dados/
@@ -20,6 +36,11 @@ unicesumar-estrutura-de-dados/
 - 06_listas_encadeadas/
   - README.md
   - 01_lista_encadeada.c
+- 07_tabela_hash/
+  - 01_tabela_hash.c
+- 08_arvores/
+  - README.md
+  - 01_arvore_binaria_busca.c
 
 ## Módulos
 
@@ -29,6 +50,8 @@ unicesumar-estrutura-de-dados/
 - Filas: implementação dinâmica com operações principais (enqueue, dequeue, front, size e empty)
 - Recursividade: fundamentos de chamadas recursivas, fatorial, MDC e problemas clássicos
 - Listas encadeadas: implementação simples de lista encadeada e atividade prática com manipulação, divisão e playlist circular duplamente encadeada
+- Tabela hash: implementação com encadeamento separado e operações de inserção, busca e remoção
+- Árvores: árvore binária de busca com travessias, busca, remoção, altura e contagem de nós
 
 ## README dos Exemplos
 
@@ -38,6 +61,7 @@ unicesumar-estrutura-de-dados/
 - [Filas](04_filas/README.md)
 - [Recursividade](05_recursividade/README.md)
 - [Listas Encadeadas](06_listas_encadeadas/README.md)
+- [Árvores](08_arvores/README.md)
 
 ## Materiais Complementares
 
@@ -74,4 +98,6 @@ Esse material é pago, entretanto, quem não puder pagar pode mandar um direct n
 ## Atividades 2º Bimestre
 - [Atividade 01 - Recursividade](atividades/2bim/ATIVIDADE%20AVALIATIVA%201.md)
 - [Atividade 02 - Listas Encadeadas](atividades/2bim/ATIVIDADE%20AVALIATIVA%202.md)
+- [Atividade 03 - Tabela Hash](atividades/2bim/ATIVIDADE%20AVALIATIVA%203.md)
+- [Trabalho - Estruturas Avançadas de Árvores](atividades/2bim/trabalho-arvores.md)
 
