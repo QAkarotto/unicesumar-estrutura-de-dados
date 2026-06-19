@@ -15,6 +15,7 @@ Links rápidos para os módulos e recursos do repositório:
 - [07_tabela_hash](07_tabela_hash/)
 - [08_arvores](08_arvores/)
 - [atividades](atividades/)
+- [questoes](questoes/)
 - [notas_de_aulas](notas_de_aulas/)
 - [LICENSE](LICENSE)
 
@@ -41,6 +42,10 @@ unicesumar-estrutura-de-dados/
 - 08_arvores/
   - README.md
   - 01_arvore_binaria_busca.c
+- questoes/
+  - 2bim/
+    - lista-exercicios.md
+    - gabarito.md
 
 ## Módulos
 
@@ -67,6 +72,8 @@ unicesumar-estrutura-de-dados/
 
 - [Mind Map da disciplina](https://app.xmind.com/share/waBbLBnS)
 - [Curso complementar de linguagem C (Udemy)](https://www.udemy.com/course/logica-e-algoritmos/)
+- [Lista de exercícios - 2º Bimestre](questoes/2bim/lista-exercicios.md)
+- [Gabarito - Lista de exercícios - 2º Bimestre](questoes/2bim/gabarito.md)
 
 Esse material é pago, entretanto, quem não puder pagar pode mandar um direct no Instagram do professor para solicitar um acesso gratuito: [@oguscaetano](https://www.instagram.com/oguscaetano/)
 

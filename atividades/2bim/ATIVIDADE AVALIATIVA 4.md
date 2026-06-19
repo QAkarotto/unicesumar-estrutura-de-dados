@@ -142,7 +142,8 @@ Preencha a tabela abaixo e explique as informações apresentadas.
 - O arquivo deve conter respostas completas, bem organizadas e escritas com linguagem técnica adequada.
 - Sempre que possível, use exemplos, tabelas, listas e figuras para facilitar a leitura.
 - Cada integrante do grupo deve contribuir com commits relevantes no repositório.
-- A entrega deve ser realizada até as 19h da data combinada com a turma.
+- A entrega deve ser realizada até as 19h do dia 17/06 para ADSIS.
+- Para Engenharia de Software, a entrega deve ser realizada até as 16h do dia 19/06.
 - Enviar o link do repositório por e-mail para joao.vsantos@unicesumar.edu.br com:
   - Título: Trabalho Estruturas de Dados 2BIM SUA_TURMA_AQUI [ADSIS3S, ESOFT3SNA ou ESOFT3SNB].
   - Corpo: nome completo, usuário do GitHub de cada integrante da equipe e link do repositório.
